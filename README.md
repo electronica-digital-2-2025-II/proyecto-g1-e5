@@ -139,7 +139,7 @@ En la carpeta src del repositorio que se encuentra a continuación se podrán ve
 
 En el xdc se encuentra cómo se definieron los pines, con pequeños comentarios indicando qué es cada cual. El archivo xsa presente es el utilizado para generar el entorno de vitis en el que se hizo la aplicación del proyecto.
 
-Finalmente y seguramente lo más importante, se encuentran los códigos .c que se usaron para cada uno de los periféricos y el main del proyecto. En este caso no se realizaron archivos .h para el funcionamiento, sin embargo se realizó un pequeño código en arduino para el correcto funcionamiento del sensor de humedad (Profe no nos baje, la necesidad nos obligó :sob:,
+Finalmente y seguramente lo más importante, se encuentran los códigos .c que se usaron para cada uno de los periféricos y el main del proyecto. En este caso los archivos .h no se hicieron de forma individual sino que se colocó la información que corresponde a estos directamente en los archivos .c; sin embargo, algo que si se hizo fue un pequeño código en arduino para el correcto funcionamiento del sensor de humedad (Profe no nos baje, la necesidad nos obligó :sob:,
  y solo fue una cosita de nada), el cual también está disponible en el repositorio.
 
 
